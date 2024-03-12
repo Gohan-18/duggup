@@ -84,7 +84,7 @@ const careerUpdates = [{
         </span>
         <span class="w-2/4 " >
             <p class="text-xs text-zinc-500 font-medium mb-3">{data?.about}</p>
-            <Button size="sm" variant="outline" class="text-xs  text-zinc-600 font-medium h-8 border-b-4 border-gray-600 flex items-center justify-center gap-3 px-6 ">Followed</Button>
+            <Button on:click={() => alert("This is to show if following the user or not!!")} size="sm" variant="outline" class="text-xs  text-zinc-600 font-medium h-8 border-b-4 border-gray-600 flex items-center justify-center gap-3 px-6 ">Followed</Button>
         </span>
         <span class="w-1/4 h-full flex flex-col items-end justify-start gap-1" >
             <img src={data?.companyIcon} alt="Logo" class="w-6 h-6 rounded-full" />
